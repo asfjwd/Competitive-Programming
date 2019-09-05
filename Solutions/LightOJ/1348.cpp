@@ -160,7 +160,7 @@ int main()
 			}
 			else {
 				
-        x++,y++;
+        			x++,y++;
 				int z = getLCA(x,y);
 		
 				printf("%d\n", query_up(x,z) + query_up(y,z)-a[z]);
